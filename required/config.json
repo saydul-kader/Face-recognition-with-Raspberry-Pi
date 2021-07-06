@@ -1,0 +1,55 @@
+{
+   "AppSettings":{
+      "armed":1
+   },
+   "IoTJumpWay":{
+      "Location":100,
+      "Zone":104,
+      "Device":136,
+      "DeviceName":"SpiderCamApp",
+      "App":0,
+      "AppName":""
+   },
+   "Actuators":{
+      
+   },
+   "Cameras":{
+      
+   },
+   "Sensors":{
+      
+   },
+   "StreamSettings":{
+      "streamIP":"",
+      "streamPort":1234
+   },
+   "IoTJumpWayMQTT":{
+      "MQTTUsername":"3E3P916Y560C",
+      "MQTTPassword":"dc&evzhoq9CaE-f7xthu",
+      "AppMQTTUsername":"",
+      "AppMQTTPassword":""
+   },
+   "IoTJumpWaySettings":{
+      "SystemID":"1",
+      "SystemName":"TASS",
+      "SystemLocation":0,
+      "SystemZone":0,
+      "SystemDeviceID":0,
+      "SystemDeviceName":"Your Device Name",
+      "SystemCameraID":255
+   },
+   "ClassifierSettings":{
+      "HAAR_FACES":"Haarcascades/lbpcascade_frontalface_improved.xml",
+      "HAAR_FACES2":"Haarcascades/haarcascade_frontalface_alt.xml",
+      "HAAR_FACES3":"Haarcascades/haarcascade_frontalface_alt2.xml",
+      "HAAR_PROFILES":"Haarcascades/haarcascade_profileface.xml",
+      "HAAR_SMILE":"Haarcascades/haarcascade_smile.xml",
+      "HAAR_EYE":"Haarcascades/haarcascade_eye.xml",
+      "HAAR_SCALE_FACTOR":1.1,
+      "HAAR_MIN_NEIGHBORS":4,
+      "Model":"model/TASSModel.xml",
+      "predictionThreshold":3000.0,
+      "height":112,
+      "width":92
+   }
+}
